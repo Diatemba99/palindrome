@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+
+
+
+
+
+<script >
+
+var mot = prompt("Veuillez saisir le mot à verifier").toLowerCase();
+sortie = [...mot].reverse().join('');
+
+if (mot === "") {
+    alert('Veuillez saisir un mot d\'abord');
+}
+
+else if (mot === sortie) {
+    alert(mot + ' est un palindrome');
+}
+
+else {
+    alert(mot + ' n\'est pas un palindrome');
+}
+</script>
+</body>
+</html>
